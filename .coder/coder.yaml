@@ -3,7 +3,6 @@ workspace:
   # Type indicates the provider type to use when building the workspace.
   # It corresponds to the `kubernetes` section under `specs`.
   type: docker
-  image: codercom/enterprise-base
   configure:
     start:
       value:
