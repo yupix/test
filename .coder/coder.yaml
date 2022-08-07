@@ -2,7 +2,7 @@ version: 0.2
 workspace:
   # Type indicates the provider type to use when building the workspace.
   # It corresponds to the `kubernetes` section under `specs`.
-  type: kubernetes
+  type: Docker
   specs:
     kubernetes:
       image:
