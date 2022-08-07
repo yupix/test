@@ -3,28 +3,6 @@ workspace:
   # Type indicates the provider type to use when building the workspace.
   # It corresponds to the `kubernetes` section under `specs`.
   type: Docker
-  specs:
-    kubernetes:
-      image:
-        value: index.docker.io/ubuntu:18.04
-      container-based-vm:
-        value: true
-      cpu:
-        value: 8
-      memory:
-        value: 8
-      disk:
-        value: 25
-      gpu-count:
-        value: 1
-      labels:
-        value:
-          com.coder.custom.hello: "hello"
-          com.coder.custom.world: "world"
-      annotations:
-        value:
-          - key: annotation-key
-            value: annotation-value
   configure:
     start:
       value:
